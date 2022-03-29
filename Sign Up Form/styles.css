@@ -1,0 +1,61 @@
+* {
+    border: 0px solid red;
+    font-family: 'Raleway', sans-serif;}
+
+body {
+    background-color: #333333;
+    margin: 0px;
+    padding: 0px;
+}
+
+.grid-row-span-3 {
+    grid-row: span 3;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 800px;
+    max-width: 1400px;
+    margin: auto;
+    background-color: rgb(226, 226, 226);
+    padding: 0px;
+}
+
+img { 
+    max-width: 100%;
+    max-height: 2000px;
+}
+
+input {
+    display: block;
+    border: 1px solid black;
+}
+
+.samuraiCrossing{
+    background-image: url(/img/michael-demarco-tgLgek8JKY0-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.blurb {
+    padding: 10px 25px 0px 25px;
+}
+
+.formContainer {
+    height: 200px;
+    padding: 10px 25px 50px 25px;
+    background-color: white;
+    box-shadow: 5px 5px 12px gray;
+}
+
+.remainingStuff {
+    padding: 10px 25px 0px 25px;
+}
+
+form {
+    padding: 0px;
+    margin: 0px;
+}
