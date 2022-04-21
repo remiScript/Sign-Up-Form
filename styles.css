@@ -100,6 +100,7 @@ input:focus {
 }
 
 .samuraiCrossing{
+    background-color: black;
     background-image: url(img/michael-demarco-tgLgek8JKY0-unsplash.jpg);
     background-size: cover;
     background-position: center;
